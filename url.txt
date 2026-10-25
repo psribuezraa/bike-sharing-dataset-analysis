@@ -1,0 +1,5 @@
+# Tautan Deployment Dashboard di Streamlit Community Cloud:
+# Silakan deploy repositori ini ke Streamlit Community Cloud (https://share.streamlit.io/)
+# lalu ganti tautan di bawah ini dengan URL publik aplikasi Anda:
+
+https://capital-bikeshare-dashboard.streamlit.app/
