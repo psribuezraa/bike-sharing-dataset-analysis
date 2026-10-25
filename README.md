@@ -1,4 +1,4 @@
-# 🚲 Proyek Analisis Data: Bike Sharing Dataset
+# Proyek Analisis Data: Bike Sharing Dataset
 
 Proyek akhir untuk kelas **Belajar Fundamental Analisis Data** pada platform **Dicoding Academy**. Proyek ini mencakup alur lengkap analisis data (*Data Wrangling, Exploratory Data Analysis, Data Visualization*) hingga pengembangan dashboard interaktif berbasis **Streamlit**.
 
@@ -8,21 +8,21 @@ Proyek akhir untuk kelas **Belajar Fundamental Analisis Data** pada platform **D
 
 ---
 
-## 📌 Pertanyaan Bisnis (SMART Questions)
-1. **Pertanyaan 1:** Bagaimana kondisi cuaca (*weathersit*) dan pergantian musim (*season*) memengaruhi rata-rata jumlah penyewaan sepeda harian (*cnt*) sepanjang tahun 2011–2012, dan pada kondisi seperti apa terjadi penurunan sewa paling signifikan?
-2. **Pertanyaan 2:** Bagaimana perbedaan karakteristik pola peminjaman sepeda per jam (*hourly trend*) antara pengguna kasual (*casual*) dan pengguna terdaftar (*registered*) pada hari kerja (*workingday*) dibandingkan hari libur/akhir pekan (*weekend/holiday*) selama periode 2011–2012?
-3. **Pertanyaan 3:** Berapa persentase pertumbuhan total penyewaan sepeda (*Year-over-Year*) dari tahun 2011 ke tahun 2012, dan pada bulan apa terjadi performa penyewaan tertinggi (*peak month*) di masing-masing tahun?
+## Pertanyaan Bisnis (SMART Questions)
+1. Bagaimana kondisi cuaca (*weathersit*) dan pergantian musim (*season*) memengaruhi rata-rata jumlah penyewaan sepeda harian (*cnt*) sepanjang tahun 2011–2012, dan pada kondisi seperti apa terjadi penurunan sewa paling signifikan?
+2. Bagaimana perbedaan karakteristik pola peminjaman sepeda per jam (*hourly trend*) antara pengguna kasual (*casual*) dan pengguna terdaftar (*registered*) pada hari kerja (*workingday*) dibandingkan hari libur/akhir pekan (*weekend/holiday*) selama periode 2011–2012?
+3. Berapa persentase pertumbuhan total penyewaan sepeda (*Year-over-Year*) dari tahun 2011 ke tahun 2012, dan pada bulan apa terjadi performa penyewaan tertinggi (*peak month*) di masing-masing tahun?
 
 ---
 
-## 📁 Struktur Direktori Proyek
+## Struktur Direktori Proyek
 
 ```text
 proyek_akhir/
 ├── dashboard/
 │   ├── main_data.csv          # Dataset harian bersih yang telah diproses
 │   ├── hour_data.csv          # Dataset per jam bersih untuk pola jam sibuk
-│   └── dashboard.py           # Skrip utama aplikasi Streamlit
+│   └── dashboard.py           # Script utama aplikasi Streamlit
 ├── data/                      # Dataset mentah (raw data)
 │   ├── day.csv
 │   └── hour.csv
@@ -38,9 +38,9 @@ proyek_akhir/
 
 ---
 
-## 💻 Panduan Menjalankan Proyek Secara Lokal
+## Panduan Menjalankan Proyek Secara Lokal
 
-### 1. Klon Repositori atau Unduh Berkas
+### 1. Clone Repository atau Unduh Berkas
 Pastikan Anda berada di direktori proyek `proyek_akhir`:
 ```bash
 cd "D:\Asah 2026 Journey\Belajar Fundamental Analisis Data\proyek_akhir"
@@ -75,7 +75,7 @@ Aplikasi dashboard akan otomatis terbuka di browser lokal Anda pada alamat: `htt
 
 ---
 
-## ☁️ Panduan Deployment ke Streamlit Community Cloud
+## Panduan Deployment ke Streamlit Community Cloud
 
 1. Buat repositori publik di **GitHub** (misalnya bernama `bike-sharing-analysis`).
 2. Unggah seluruh isi folder `proyek_akhir` ke repositori GitHub tersebut.
@@ -89,7 +89,7 @@ Aplikasi dashboard akan otomatis terbuka di browser lokal Anda pada alamat: `htt
 
 ---
 
-## 💡 Ringkasan Temuan & Rekomendasi Utama
+## Ringkasan Temuan & Rekomendasi Utama
 
 1. **Pengaruh Lingkungan**: Musim Gugur (*Fall*) adalah musim tersibuk (**5.644 unit/hari**), sedangkan cuaca presipitasi hujan/salju (*Light Snow/Rain*) menurunkan minat sewa sebesar **63,03%**.
 2. **Jam Sibuk Komuter**: Pada hari kerja, anggota terdaftar membentuk lonjakan tajam pada pukul **08.00 pagi (455 unit/jam)** dan **17.00–18.00 sore (442–468 unit/jam)**. Sebaliknya pada akhir pekan, pengguna kasual mendominasi siang hari pukul **12.00–16.00 (puncak 140 unit/jam)** untuk rekreasi.
