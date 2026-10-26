@@ -33,12 +33,12 @@ st.markdown("""
             margin-bottom: 1.5rem;
         }
         
-        /* Badge Persentase Delta (Tag Kapsul Biru Bersih Tanpa Panah) */
+        /* Persentase Delta Metrik (Text-Only Tanpa Background/Border Kapsul) */
         div[data-testid="stMetricDelta"] {
-            background-color: rgba(37, 99, 235, 0.12) !important;
-            border: 1px solid rgba(37, 99, 235, 0.25) !important;
-            border-radius: 9999px !important;
-            padding: 0.15rem 0.55rem !important;
+            background-color: transparent !important;
+            border: none !important;
+            border-radius: 0 !important;
+            padding: 0 !important;
             width: fit-content !important;
             font-weight: 600 !important;
         }
@@ -301,7 +301,7 @@ with tab1:
                              xytext=(0, 4), textcoords='offset points')
         st.pyplot(fig2)
         
-    st.info("""
+    st.markdown("""
         **Key Insights Lingkungan:**
         - **Musim Gugur (Fall)** menjadi periode emas operasional dengan rata-rata tertinggi **5.644 unit/hari**, sedangkan **Musim Semi (Spring)** mengalami titik terendah (**2.604 unit/hari**).
         - **Cuaca Hujan/Salju Ringan (Light Snow/Rain)** menyebabkan penurunan dramatis sebesar **63,03%** dibanding cuaca cerah (anjlok dari 4.877 unit menjadi 1.803 unit/hari).
@@ -344,7 +344,7 @@ with tab2:
     plt.tight_layout()
     st.pyplot(fig3)
     
-    st.info("""
+    st.markdown("""
         **Key Insights Jam Sibuk:**
         - **Hari Kerja (Pola Bimodal):** Anggota terdaftar mendominasi jam berangkat kerja pukul **08.00 (455 unit/jam)** dan jam pulang kerja pukul **17.00–18.00 (442–468 unit/jam)**. Pengguna kasual sangat pasif.
         - **Akhir Pekan (Pola Unimodal):** Pengguna kasual melonjak signifikan pada siang hingga sore hari (pukul **12.00–16.00**, puncak di **14.00 rata-rata 140 unit/jam**) untuk keperluan rekreasi.
@@ -402,7 +402,7 @@ with tab3:
                              xytext=(0, 3), textcoords='offset points')
         st.pyplot(fig5)
         
-    st.info("""
+    st.markdown("""
         **Key Insights Pertumbuhan & Suhu:**
         - **Pertumbuhan YoY Melesat +64,88%:** Dari 1,24 juta unit (2011) ke 2,05 juta unit (2012). Bulan puncak bergeser dari Juni 2011 (143 rb) ke September 2012 (218 rb).
         - **Sweet Spot Suhu Hangat:** Rentang **Warm (22°C - 30°C)** mencatatkan utilisasi tertinggi (**5.719 unit/hari**), sedangkan suhu dingin **Cold (< 12°C)** anjlok 61% ke 2.228 unit/hari.
