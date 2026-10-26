@@ -2,4 +2,4 @@
 # Silakan deploy repositori ini ke Streamlit Community Cloud (https://share.streamlit.io/)
 # lalu ganti tautan di bawah ini dengan URL publik aplikasi Anda:
 
-https://capital-bikeshare-dashboard.streamlit.app/
+https://ezra-bike-sharing-dataset-analysis.streamlit.app/
